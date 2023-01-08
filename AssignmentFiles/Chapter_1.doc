@@ -1,9 +1,22 @@
 ● What is Emmet?
-
+o	Emmet is a css like abbreviations used to generate code snippets
+o	These abbreviations are parsed in runtime and produce code block
+o	These abbreviations are not limited to any specific HMTL tags, they can generate any
+o	Eg.) div>div>input+input+button
 ● Difference between a Library and Framework?
+o	Library contain the classes written and can be used to boost up our application functionality. Eg, React js, Jquery
+o	Framework in the foundation on which our application can be developed. Eg. .net ect
 ● What is CDN? Why do we use it?
+o	CDN is a content delivery network, is the interconnected servers which speed up the webpage loading. 
+o	A website content stored on the CDN servers geographically close to the user
 ● Why is React known as React?
+	It renders the changes to DOM as soon it happens. 
 ● What is crossorigin in script tag?
-● What is diference between React and ReactDOM
+Used to share the resources from one domain to another domain.To handel CORS. Cross origin resource sharing is requesting resource like audio, images from another domain without leaking its credentials 
+● What is diference between React and ReactDOM. 
+ReactDOM provide DOM specific methods that can be used in the our app.eg. ReactDOM.Render(),React is the entry point to the library and contain top level APIs.
 ● What is difference between react.development.js and react.production.js files via CDN?
+Production.js is the minified version used that can be used not to impact the website performance .
 ● What is async and defer? - see my Youtube video ;)
+Both are used to render JS scriptfile . In asyn tag, html parsing will happens, script rendering happens paralley .once scripts are available, html parsing stops to execute script file and then continue with thml parsing.
+In case of defer, HMTL parsing and script fetched in paralle.once html parsing is done script will be executed.
