@@ -1,3 +1,6 @@
+import React from "react";
+import ReactDOM from "react-dom";
+
 const heading = React.createElement(
   "h1",
   { id: "idh1", name: "headimgTag" },
@@ -10,6 +13,7 @@ const container = React.createElement("div", { id: "container" }, [
   heading,
   heading2,
 ]);
+console.log(heading);
 console.log(heading);
 
 const reactRoot = ReactDOM.createRoot(document.getElementById("root"));
