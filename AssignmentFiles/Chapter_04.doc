@@ -1,0 +1,39 @@
+1. Is JSX mandatory for REact?
+nope. KSX is not mandatory for react. JSX gives more readable way for react. 
+JSX internally uses react.createlement and return react object
+
+2.is ES6 mandatory for react?
+ES6 is js standarization to mek code more readable ans more accessible. it is not mandatory for react. that is 
+instead ES6 map(), we can still use foreach with more code and logic to achive same as map().
+
+3.In JSX {TitleComp}, <TitleComp/> amd <TitleComp></TitleComp> are the diffremt way to access React Functional component
+
+4. Comments in JSX: same as JS comment . // single line or /**/ multiline 
+
+5.<REact.Fragment></REact.Fragment> : Is a functional component in react from React library.
+ It is used to have empty tag around mutiple Func. component as JSX can have only one parent element.
+
+ <></> is the short way to write above code.
+
+ 6.Virtual DOM: It is a programming concept. it a representation of DOM in memory and sync it with actual DOM. 
+ used by react library to render its component in UI. This process is called Reconciliation
+
+ 7.Reconciliation : 
+ On eveytime render() is called, react render /update only the changed the component, element or attributes.This process is called
+ Reconciliation. React uses Diff algorithm to determine the changes and render the UI accordingly .
+ Diffing two tress.
+
+ This is an algorithm that react uses to diff one tree with another to determine which part need to be chnaged
+
+ 8.REact fiber: It is new React Reconciliation engine .
+
+ 9.Need of key: Key should be unique . React uses diff algorithm to dtermine the changes and update/ render the UI. Key helps the React 
+ to render only changed element not entire UI
+
+ 10. Index should not be recommoned as key. But Index is better for no key. and unique key best for Index key
+
+ 11: Props: Props are property passed as a parameter to Functional or Class comment. This props can have any value.T
+ there are different ways this props can be destructured and used. One such way is pass value/pbject using js ... spread operator 
+
+ 12.Config driven uI is the design pattern, where UI render will depend on configuration send from APIs. Eg, show offers, discount based on location
+ in the websites. 

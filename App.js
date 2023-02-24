@@ -47,7 +47,7 @@ const HeaderComponent3 = () => (
 
 //How to render functional component enclose in </> self closing tag
 
-reactRoot.render({ HeaderComponent });
+reactRoot.render(<HeaderComponent />);
 
 //*********** samples**********//
 // const heading=document.createElement("h1");
