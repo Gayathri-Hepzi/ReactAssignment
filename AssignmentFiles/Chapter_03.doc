@@ -1,0 +1,6 @@
+What is JSX?
+    It is neither string nor html. suntax extention for java script .
+     Useful when working with ui inside JS.
+
+Superpowers of JSX?
+    It give more readibility. JSX syntax extention internally uses react.createElement and emits react element. 
